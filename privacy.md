@@ -60,8 +60,6 @@ You can ask us to access, correct, delete or export your personal data, to restr
 - **Delete your data without the app:** email passfirstuktest@gmail.com from the address on your account with the subject "Delete my data". We will delete your account and data within one month.
 - **Anything else:** email us at passfirstuktest@gmail.com. We will respond within one month.
 
-You can also complain to the Information Commissioner's Office (ico.org.uk, 0303 123 1113). We would appreciate the chance to help first.
-
 ## Age
 
 PassFirst is intended for people aged 16 and over. We do not knowingly collect personal data from anyone under 16. If you believe a child under 16 has given us personal data, contact us and we will delete it. We do not show personalised ads to anyone.
