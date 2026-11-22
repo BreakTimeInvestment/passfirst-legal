@@ -1,6 +1,6 @@
 # PassFirst Privacy Policy
 
-Last updated: 21 November 2026
+Last updated: 22 November 2026
 
 PassFirst ("the app", "we", "us") helps people in the UK practise for the driving theory test. This policy explains what personal data we collect, why we use it, and your rights.
 
@@ -20,7 +20,12 @@ PassFirst ("the app", "we", "us") helps people in the UK practise for the drivin
 - If you buy Premium, the payment is handled by the Apple App Store or Google Play. We receive confirmation that you are subscribed, not your payment card details. Apple and Google act as independent controllers of your payment data under their own privacy policies.
 
 **Ads (free users)**
-- If you use the free version, the app shows ads provided by Google AdMob. AdMob may use your device's advertising identifier and collect information such as your approximate location (derived from your IP address), device type and ad interactions. Premium users see no ads.
+- If you use the free version, the app shows ads provided by Google AdMob. AdMob and its partners may use your device's advertising identifier and collect information such as your approximate location (derived from your IP address), device type and how you interact with ads. They use this to show ads and measure how well they work.
+- Depending on your choices and where you live, ads may be personalised or non-personalised.
+- If you are in the United Kingdom or the European Economic Area, we ask for your consent before showing ads that use device identifiers. You can change or withdraw your choice at any time in the app under Profile → Ad privacy settings.
+- You can also reset or limit your advertising ID in your phone's settings (on most Android phones: Settings → Privacy → Ads).
+- Premium users see no ads.
+- To learn how Google uses data from apps that use its services, see https://policies.google.com/technologies/partner-sites
 
 **On your device**
 - Your progress and settings are also stored locally on your phone.
@@ -32,7 +37,7 @@ You choose to give us your data. If you don't provide an email address you can s
 
 - **To provide the app:** storing your progress, syncing it across devices, and managing your account and Premium access. Basis: performing our contract with you.
 - **To keep the app working and secure:** fixing problems and preventing abuse. Basis: our legitimate interests.
-- **To show ads to free users.** Basis: your consent. You will be asked for consent before ads that use device identifiers are shown. You can change your choice in the app or in your device settings.
+- **To show ads to free users.** Basis: your consent. You will be asked for consent before ads that use device identifiers are shown. You can change your choice in the app under Profile → Ad privacy settings, or in your device settings.
 - **To reply to your messages.** Basis: our legitimate interests.
 
 We do not sell your personal data. We do not use automated decision-making or profiling that has legal or similarly significant effects on you.
@@ -57,12 +62,13 @@ Some of these providers are based outside the UK, including in the United States
 You can ask us to access, correct, delete or export your personal data, to restrict or object to how we use it, and to withdraw consent at any time. You can:
 - **Delete your account and data in the app:** Profile → Delete account and data.
 - **Clear progress stored on your phone:** Profile → Reset progress.
+- **Change your ad choices:** Profile → Ad privacy settings (shown to users in the UK and EEA).
 - **Delete your data without the app:** email passfirstuktest@gmail.com from the address on your account with the subject "Delete my data". We will delete your account and data within one month.
 - **Anything else:** email us at passfirstuktest@gmail.com. We will respond within one month.
 
 ## Age
 
-PassFirst is intended for people aged 16 and over. We do not knowingly collect personal data from anyone under 16. If you believe a child under 16 has given us personal data, contact us and we will delete it. We do not show personalised ads to anyone.
+PassFirst is intended for people aged 16 and over. We do not knowingly collect personal data from anyone under 16, and the app is not directed at children. If you believe a child under 16 has given us personal data, contact us and we will delete it.
 
 ## Security
 
