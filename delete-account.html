@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your PassFirst account</title>
+<meta name="description" content="How to request deletion of your PassFirst account and associated data.">
+<style>
+  :root {
+    --bg: #f4f6f9;
+    --surface: #ffffff;
+    --text: #17202e;
+    --muted: #556070;
+    --line: #dde2ea;
+    --brand: #0b3d91;
+    --brand-contrast: #ffffff;
+    --soft: #e8eefb;
+    --warn-bg: #fff6e5;
+    --warn-line: #f0c36d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10141b;
+      --surface: #181e28;
+      --text: #e9edf3;
+      --muted: #9aa5b5;
+      --line: #2a3342;
+      --brand: #8db4ff;
+      --brand-contrast: #10141b;
+      --soft: #1b2638;
+      --warn-bg: #2a2314;
+      --warn-line: #7a5f1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    background: var(--brand);
+    color: var(--brand-contrast);
+    display: grid; place-items: center;
+    font-weight: 700; font-size: 1.05rem;
+  }
+  .bar strong { font-size: 1.05rem; }
+  .bar span { color: var(--muted); font-size: 0.9rem; }
+  main { max-width: 760px; margin: 0 auto; padding: 36px 20px 56px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 10px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.2rem; margin: 40px 0 12px; }
+  .lead { color: var(--muted); font-size: 1.05rem; margin: 0 0 8px; max-width: 62ch; }
+  .meta { color: var(--muted); font-size: 0.88rem; margin: 0 0 28px; }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 24px;
+  }
+  .steps { list-style: none; counter-reset: s; margin: 0; padding: 0; }
+  .steps li {
+    counter-increment: s;
+    position: relative;
+    padding: 0 0 18px 48px;
+    margin: 0;
+  }
+  .steps li:last-child { padding-bottom: 0; }
+  .steps li::before {
+    content: counter(s);
+    position: absolute; left: 0; top: 0;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--soft);
+    color: var(--brand);
+    font-weight: 700;
+    display: grid; place-items: center;
+  }
+  .steps li:not(:last-child)::after {
+    content: "";
+    position: absolute; left: 15px; top: 36px; bottom: 4px;
+    width: 2px; background: var(--line);
+  }
+  .steps b { display: block; }
+  .steps p { margin: 2px 0 0; color: var(--muted); }
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 22px;
+    background: var(--brand);
+    color: var(--brand-contrast);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .button:hover { filter: brightness(1.08); }
+  a { color: var(--brand); }
+  a:focus-visible, .button:focus-visible { outline: 3px solid var(--brand); outline-offset: 3px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.96rem; }
+  th, td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); font-size: 0.88rem; }
+  tr:last-child td { border-bottom: 0; }
+  .wrap { overflow-x: auto; }
+  .notice {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-line);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-top: 16px;
+  }
+  .notice p { margin: 0; }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px 20px 40px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  footer a { margin: 0 8px; }
+  @media (max-width: 520px) {
+    h1 { font-size: 1.6rem; }
+    .panel { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="logo" aria-hidden="true">P</div>
+    <div>
+      <strong>PassFirst</strong><br>
+      <span>UK driving theory test practice</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <h1>Delete your PassFirst account</h1>
+  <p class="lead">You can ask us to delete your PassFirst account and the personal data linked to it at any time. Follow the steps below.</p>
+  <p class="meta">App: PassFirst (com.passfirst.app) &middot; Developer: BreakTimeInvestment</p>
+
+  <div class="panel">
+    <ol class="steps">
+      <li>
+        <b>Send us an email</b>
+        <p>Write to <a href="mailto:passfirstuktest@gmail.com?subject=Delete%20my%20PassFirst%20account&amp;body=Please%20delete%20my%20PassFirst%20account.%0A%0ASign-in%20email%3A%20">passfirstuktest@gmail.com</a> from the address you use to sign in to PassFirst.</p>
+      </li>
+      <li>
+        <b>Use the subject &ldquo;Delete my PassFirst account&rdquo;</b>
+        <p>This helps us find your request quickly. Include the sign-in email address of the account you want deleted.</p>
+      </li>
+      <li>
+        <b>We confirm and delete</b>
+        <p>We will confirm your request by email, then delete your account and linked data within 30 days.</p>
+      </li>
+    </ol>
+    <a class="button" href="mailto:passfirstuktest@gmail.com?subject=Delete%20my%20PassFirst%20account&amp;body=Please%20delete%20my%20PassFirst%20account.%0A%0ASign-in%20email%3A%20">Email a deletion request</a>
+  </div>
+
+  <h2>What happens to your data</h2>
+  <div class="panel wrap">
+    <table>
+      <thead>
+        <tr><th scope="col">Data</th><th scope="col">What we do</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Account details (email address and sign-in credentials)</td><td>Permanently deleted</td></tr>
+        <tr><td>Your progress, quiz results and saved settings</td><td>Permanently deleted</td></tr>
+        <tr><td>Records we must keep by law, or for security and fraud prevention</td><td>Kept only as long as required, then deleted</td></tr>
+        <tr><td>Anonymous, aggregated statistics that cannot identify you</td><td>May be kept</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="notice">
+    <p><strong>Deletion is permanent.</strong> Once your account is deleted, your progress cannot be recovered.</p>
+  </div>
+
+  <h2>Using PassFirst as a guest</h2>
+  <p>If you use the app as a guest, your progress is linked to an anonymous ID rather than an email address. To remove it, email us at the address above and tell us you used the app as a guest, or uninstall the app to clear the data stored on your device.</p>
+
+  <h2>Questions</h2>
+  <p>If you have any questions about your data or this process, contact <a href="mailto:passfirstuktest@gmail.com">passfirstuktest@gmail.com</a>.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/BreakTimeInvestment/passfirst-legal/blob/main/privacy.md">Privacy Policy</a>
+  <a href="https://github.com/BreakTimeInvestment/passfirst-legal/blob/main/terms.md">Terms</a>
+  <p>&copy; 2026 BreakTimeInvestment</p>
+</footer>
+</body>
+</html>
